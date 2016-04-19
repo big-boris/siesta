@@ -23,7 +23,7 @@ body
             .col-md-4
                 .phone__head 8 926 865-77-50
                 .opening__hours Часы работы: с 12:00 до 23:00
-        .row.slider
+        .row.slider.hidden-xs
             .col-md-12
                 .fotorama(data-width="100%" data-height='520px' data-nav="false" transitionduration='100' data-autoplay="3000" data-stopautoplayontouch="false" data-fit="cover" data-max-width="100%")
                     img(src='img/pizza_stock01.jpg' alt='Типа картинка слайдера' width='100%')
@@ -54,6 +54,7 @@ body
                             li 22 см - 179 р
                             li 33 см - 519 р
                             li 41 см - 599 р
+            .clearfix.visible-sm-block
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_4cheese.jpg' alt='Пицца Четыре сыра' width='100%')
@@ -224,6 +225,7 @@ body
                         ul.product__price__option
                             li 33 см - 379 р
                             li 41 см - 409 р
+            .clearfix.visible-sm-block
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_gavaiskaya.jpg' alt='Пицца Гавайская' width='100%')
@@ -351,6 +353,7 @@ body
                     .product__price
                         ul.product__price__option
                             li 8 шт - 425 р
+            .clearfix.visible-sm-block
             .col-sm-6.col-md-3
                 .product
                     img(src='img/zakuski/zak_kartofderevnya.jpg' alt='Картофель по-деревенски' width='100%')
@@ -468,11 +471,11 @@ body
                     .product__price
                         ul.product__price__option
                             li 0,5 л - 119 р
-        .row.text-center.info
-            .col-md-3
+        .row.info
+            .col-md-3.text-center
                 .logo
                     img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='235px')
-            .col-md-5
+            .col-md-5.text-center
                 .footer__text Сиеста доставляет бесплатно!
             .col-md-4.text-left
                 .phone__footer 8 926 865-77-50
@@ -482,29 +485,29 @@ body
     script(src="libs/fotorama/fotorama.js")
 
     // Yandex.Metrika counter
-    script(type='text/javascript').
-      (function (d, w, c) {
-      (w[c] = w[c] || []).push(function() {
-      try {
-      w.yaCounter36895210 = new Ya.Metrika({
-      id:36895210,
-      clickmap:true,
-      trackLinks:true,
-      accurateTrackBounce:true
-      });
-      } catch(e) { }
-      });
-      var n = d.getElementsByTagName("script")[0],
-      s = d.createElement("script"),
-      f = function () { n.parentNode.insertBefore(s, n); };
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://mc.yandex.ru/metrika/watch.js";
-      if (w.opera == "[object Opera]") {
-      d.addEventListener("DOMContentLoaded", f, false);
-      } else { f(); }
-      })(document, window, "yandex_metrika_callbacks");
-    noscript
-      div
-        img(src='https://mc.yandex.ru/watch/36895210', style='position:absolute; left:-9999px;', alt='')
+    //- script(type='text/javascript').
+    //-   (function (d, w, c) {
+    //-   (w[c] = w[c] || []).push(function() {
+    //-   try {
+    //-   w.yaCounter36895210 = new Ya.Metrika({
+    //-   id:36895210,
+    //-   clickmap:true,
+    //-   trackLinks:true,
+    //-   accurateTrackBounce:true
+    //-   });
+    //-   } catch(e) { }
+    //-   });
+    //-   var n = d.getElementsByTagName("script")[0],
+    //-   s = d.createElement("script"),
+    //-   f = function () { n.parentNode.insertBefore(s, n); };
+    //-   s.type = "text/javascript";
+    //-   s.async = true;
+    //-   s.src = "https://mc.yandex.ru/metrika/watch.js";
+    //-   if (w.opera == "[object Opera]") {
+    //-   d.addEventListener("DOMContentLoaded", f, false);
+    //-   } else { f(); }
+    //-   })(document, window, "yandex_metrika_callbacks");
+    //- noscript
+    //-   div
+    //-     img(src='https://mc.yandex.ru/watch/36895210', style='position:absolute; left:-9999px;', alt='')
     // /Yandex.Metrika counter
