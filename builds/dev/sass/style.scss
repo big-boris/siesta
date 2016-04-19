@@ -1,6 +1,6 @@
 .info {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 28px;
 }
 .header__text {
     font-family: 'matias';
@@ -12,10 +12,22 @@
     font-family: 'matias';
     font-weight: bold;
     font-size: 36px;
-    line-height: 2.7;
+    line-height: 1.5;
+    padding-top: 8px;
+}
+.opening__hours {
+    font-family: 'matias';
+    font-size: 22px;
 }
 .slider {
     margin-bottom: 16px;
+}
+.section__title {
+    font-family: 'matias';
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding-top: 56px;
 }
 .product {
     font-family: 'matias';
@@ -41,5 +53,10 @@
     font-family: 'matias';
     font-weight: bold;
     font-size: 36px;
-    padding: 16px 0;
+    padding-left: 16px;
+}
+.address {
+    font-family: 'matias';
+    font-size: 22px;
+    padding-left: 16px;
 }

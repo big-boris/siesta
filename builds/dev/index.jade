@@ -19,9 +19,10 @@ body
                 .logo
                     img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='235px')
             .col-md-5
-                .header__text Бесплатная доставка в Нахабино
+                .header__text Бесплатная доставка <br> пиццы в Нахабино
             .col-md-4
-                .phone__head 8 (926) 865-77-50
+                .phone__head 8 926 865-77-50
+                .opening__hours Часы работы: с 12:00 до 23:00
         .row.slider
             .col-md-12
                 .fotorama(data-width="100%" data-height='520px' data-nav="false" transitionduration='100' data-autoplay="3000" data-stopautoplayontouch="false" data-fit="cover" data-max-width="100%")
@@ -29,7 +30,8 @@ body
                     img(src='img/pizza_stock02.jpg' alt='Типа картинка слайдера' width='100%')
                     img(src='img/pizza_stock03.jpg' alt='Типа картинка слайдера' width='100%')
                     img(src='img/pizza_stock04.jpg' alt='Типа картинка слайдера' width='100%')
-        .row(style='display:-webkit-box;')
+            //- pizza first row
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_siesta.jpg' alt='Пицца Сиеста' width='100%')
@@ -41,7 +43,6 @@ body
                             li 22 см - 179 р
                             li 33 см - 619 р
                             li 41 см - 659 р
-                //- pizza first row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_pepperoni.jpg' alt='Пицца Пепперони' width='100%')
@@ -76,7 +77,7 @@ body
                             li 33 см - 549 р
                             li 41 см - 589 р
             //- pizza second row
-        .row(style='display:-webkit-box;')
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_syrostrov.jpg' alt='Пицца Сырный остров' width='100%')
@@ -118,7 +119,7 @@ body
                             li 33 см - 519 р
                             li 41 см - 569 р
             //- pizza third row
-        .row(style='display:-webkit-box;')
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_pikanta.jpg' alt='Пицца Пикантная' width='100%')
@@ -160,7 +161,7 @@ body
                             li 33 см - 589 р
                             li 41 см - 649 р
             //- pizza fourth row
-        .row(style='display:-webkit-box;')
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_julette.jpg' alt='Пицца Жульетта' width='100%')
@@ -202,7 +203,7 @@ body
                             li 33 см - 499 р
                             li 41 см - 559 р
             //- pizza fifth row
-        .row(style='display:-webkit-box;')
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_4vkusa.jpg' alt='Пицца Четыре вкуса' width='100%')
@@ -244,7 +245,7 @@ body
                             li 33 см - 469 р
                             li 41 см - 519 р
             //- pizza sixth row
-        .row(style='display:-webkit-box;')
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_salyami.jpg' alt='Пицца Салями' width='100%')
@@ -286,7 +287,7 @@ body
                             li 33 см - 589 р
                             li 41 см - 639 р
             //- pizza seventh row
-        .row(style='display:-webkit-box;')
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pizza/pz_quatrostag.jpg' alt='Пицца Quatro Stagione' width='100%')
@@ -298,7 +299,10 @@ body
                             li 33 см - 609 р
                             li 41 см - 649 р
             //- pasta first row
-        .row(style='display:-webkit-box;')
+        .row
+            .container
+                .row.text-center
+                    .section__title Пасты
             .col-sm-6.col-md-3
                 .product
                     img(src='img/pasta/spag_cherribaz.jpg' alt='Спагетти черри-базилик' width='100%')
@@ -328,7 +332,10 @@ body
                         ul.product__price__option
                             li 250 гр - 370 р
             //- zakuski first row
-        .row(style='display:-webkit-box;')
+        .row
+            .container
+                .row.text-center
+                    .section__title Горячие закуски
             .col-sm-6.col-md-3
                 .product
                     img(src='img/zakuski/zak_naggets.jpg' alt='Куриные наггетсы' width='100%')
@@ -359,7 +366,7 @@ body
                         ul.product__price__option
                             li 150 гр - 175 р
             //- zakuski second row
-        .row(style='display:-webkit-box;')
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/zakuski/zak_lukolca.jpg' alt='Луковые кольца' width='100%')
@@ -375,7 +382,10 @@ body
                         ul.product__price__option
                             li 150 гр - 185 р
             //- salaty first row
-        .row(style='display:-webkit-box;')
+        .row
+            .container
+                .row.text-center
+                    .section__title Салаты
             .col-sm-6.col-md-3
                 .product
                     img(src='img/salat/salat_cezarkur.jpg' alt='Цезарь с курицей' width='100%')
@@ -405,7 +415,10 @@ body
                         ul.product__price__option
                             li 280 р
             //- napitki first row
-        .row(style='display:-webkit-box;')
+        .row
+            .container
+                .row.text-center
+                    .section__title Напитки
             .col-sm-6.col-md-3
                 .product
                     img(src='img/napitki/nap_coca.jpg' alt='Coca-cola' width='100%')
@@ -439,7 +452,7 @@ body
                             li 0,5 л - 99 р
                             li 1 л - 119 р
             //- napitki second row
-        .row(style='display:-webkit-box;')
+        .row
             .col-sm-6.col-md-3
                 .product
                     img(src='img/napitki/nap_bonaqua.jpg' alt='Bon Aqua' width='100%')
@@ -461,9 +474,37 @@ body
                     img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='235px')
             .col-md-5
                 .footer__text Сиеста доставляет бесплатно!
-            .col-md-4
-                .phone__footer 8 (926) 865-77-50
+            .col-md-4.text-left
+                .phone__footer 8 926 865-77-50
+                .address Нахабино, Красноармейская ул., 61а
     script(src="libs/jquery/jquery.min.js")
     script(src="libs/bootstrap/bootstrap.min.js")
     script(src="libs/fotorama/fotorama.js")
 
+    // Yandex.Metrika counter
+    script(type='text/javascript').
+      (function (d, w, c) {
+      (w[c] = w[c] || []).push(function() {
+      try {
+      w.yaCounter36895210 = new Ya.Metrika({
+      id:36895210,
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true
+      });
+      } catch(e) { }
+      });
+      var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/watch.js";
+      if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    noscript
+      div
+        img(src='https://mc.yandex.ru/watch/36895210', style='position:absolute; left:-9999px;', alt='')
+    // /Yandex.Metrika counter
