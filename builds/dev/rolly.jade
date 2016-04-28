@@ -1,0 +1,483 @@
+-var pageTitle = "Кафе Сиеста роллы суши Нахабино доставка еды заказать"
+
+doctype html
+html(lang="ru")
+head
+    meta(charset="UTF-8")
+    meta(name='yandex-verification' content='672bbf7ed8b0d929')
+    meta(name='viewport' content='width=device-width' index-scale='1.0')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='description' content='Заказать в кафе Сиеста роллы суши Нахабино доставка еды заказать')
+    title= pageTitle
+    link(rel="stylesheet" href="css/style.css")
+    link(rel="stylesheet" href="libs/bootstrap/bootstrap.css")
+    link(rel="stylesheet" href="libs/fotorama/fotorama.css")
+    //[if lt IE 9]>
+        <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script> <![endif]
+body
+    .container
+        .row.text-center.info
+            .col-md-3
+                .logo
+                    img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='235px')
+            .col-md-5
+                .header__text Бесплатная доставка <br> суши в Нахабино
+            .col-md-4
+                .phone__head 8 926 865-77-50
+                .opening__hours Часы работы: с 12:00 до 23:00
+        .row.slider.hidden-xs
+            .col-md-12
+                .fotorama(data-width="100%" data-height='520px' data-nav="false" transitionduration='100' data-autoplay="3000" data-stopautoplayontouch="false" data-fit="cover" data-max-width="100%")
+                    img(src='img/rolly_slide01.jpg' alt='Кафе Сиеста роллы суши' width='100%')
+                    img(src='img/rolly_slide02.jpg' alt='Кафе Сиеста бесплатная доставка суши' width='100%')
+                    img(src='img/rolly_slide03.jpg' alt='Кафе Сиеста заказать суши роллы' width='100%')
+                    img(src='img/rolly_slide04.jpg' alt='Кафе Сиеста доставка еды заказать' width='100%')
+            //- rolly classic first row
+        .row
+            .container
+                .row.text-center
+                    .section__title Роллы класические
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_ogurec.jpg' alt='Ролл с огурцом' width='100%')
+                    .product__name Ролл с огурцом
+                    .product__contains
+                        | Рис, огурец, нори
+                    .product__price
+                        ul.product__price__option
+                            li 128 гр - 100 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_ugor-ogurec.jpg' alt='Ролл с угрем и огурцом' width='100%')
+                    .product__name Ролл с угрем и огурцом
+                    .product__price
+                        ul.product__price__option
+                            li 190 гр - 180 р
+            .clearfix.visible-sm-block
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_avokado.jpg' alt='Ролл с авокадо' width='100%')
+                    .product__name Ролл с авокадо
+                    .product__price
+                        ul.product__price__option
+                            li 160 гр - 100 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_losos.jpg' alt='Ролл с лососем' width='100%')
+                    .product__name Ролл с лососем
+                    .product__price
+                        ul.product__price__option
+                            li 180 гр - 150 р
+            //- rolly classic second row
+        .row
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_ovoshchi.jpg' alt='Ролл овощной' width='100%')
+                    .product__name Ролл овощной
+                    .product__price
+                        ul.product__price__option
+                            li 180 гр - 140 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_krevetka-syr.jpg' alt='Ролл с креветкой и сыром' width='100%')
+                    .product__name Ролл с креветкой и сыром
+                    .product__price
+                        ul.product__price__option
+                            li 210 гр - 200 р
+
+            //- rolly first row
+        .row
+            .container
+                .row.text-center
+                    .section__title Роллы
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_kalifor-krab.jpg' alt='Калифорния с крабом' width='100%')
+                    .product__name Калифорния с крабом
+                    .product__contains
+                        | Тобико, краб, майонез, огурец
+                    .product__price
+                        ul.product__price__option
+                            li 210 гр - 350 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_kalifor-losos.jpg' alt='Калифорния с лососем' width='100%')
+                    .product__name Калифорния с лососем
+                    .product__contains
+                        | Тобико, лосось, майонез, огурец
+                    .product__price
+                        ul.product__price__option
+                            li 210 гр - 310 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_kanada.jpg' alt='Ролл Канадский' width='100%')
+                    .product__name Ролл Канадский
+                    .product__contains
+                        | Лосось, авокадо, майонез, кунжут, унаги, угорь
+                    .product__price
+                        ul.product__price__option
+                            li 220 гр - 340 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_filadelfia-losos.jpg' alt='Филадельфия с лососем' width='100%')
+                    .product__name Филадельфия с лососем
+                    .product__contains
+                        | Угорь, лосось, майонез, авокадо
+                    .product__price
+                        ul.product__price__option
+                            li 220 гр - 330 р
+            //- rolly second row
+        .row
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_kalifor-filo.jpg' alt='Калифорния фило' width='100%')
+                    .product__name Калифорния фило
+                    .product__contains
+                        | Тобико, сливочный сыр, лосось, огурец
+                    .product__price
+                        ul.product__price__option
+                            li 230 гр - 320 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_cezar-kurica.jpg' alt='Ролл Цезарь с курицей' width='100%')
+                    .product__name Ролл Цезарь с курицей
+                    .product__contains
+                        | Курица, томаты, соус цезарь, пармезан, базилик
+                    .product__price
+                        ul.product__price__option
+                            li 240 гр - 350 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_cezar-losos.jpg' alt='Ролл Цезарь с лососем' width='100%')
+                    .product__name Ролл Цезарь с лососем
+                    .product__contains
+                        | Лосось, томаты, соус цезарь, пармезан, базилик
+                    .product__price
+                        ul.product__price__option
+                            li 240 гр - 360 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_cezar-krevetka.jpg' alt='Ролл Цезарь с креветками' width='100%')
+                    .product__name Ролл Цезарь с креветками
+                    .product__contains
+                        | Креветки, томаты, соус цезарь, пармезан, базилик
+                    .product__price
+                        ul.product__price__option
+                            li 240 гр - 360 р
+            //- rolly third row
+        .row
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_filadelf-krevetka.jpg' alt='Филадельфия с креветками' width='100%')
+                    .product__name Филадельфия с креветками
+                    .product__contains
+                        | Креветки, сливочный сыр, лосось, авокадо
+                    .product__price
+                        ul.product__price__option
+                            li 240 гр - 340 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_shchioni-maki.jpg' alt='Ролл Шиони маки' width='100%')
+                    .product__name Ролл Шиони маки
+                    .product__contains
+                        | Угорь, краб, сливочный сыр, кунжут
+                    .product__price
+                        ul.product__price__option
+                            li 200 гр - 370 р
+            //- .clearfix.visible-sm-block
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/roll_osaka.jpg' alt='Ролл Осака' width='100%')
+                    .product__name Ролл Осака
+                    .product__contains
+                        | Лосось, угорь, тобико, соус спайси
+                    .product__price
+                        ul.product__price__option
+                            li 220 гр - 390 р
+
+            //- rolly ostrye first row
+        .row
+            .container
+                .row.text-center
+                    .section__title Острые роллы
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/spajsi_roll-ugor.jpg' alt='Спайси ролл с угрем' width='100%')
+                    .product__name Спайси ролл с угрем
+                    .product__contains
+                        | Угорь, кунжут, соус спайси
+                    .product__price
+                        ul.product__price__option
+                            li 150 гр - 190 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/spajsi_roll-krab.jpg' alt='Спайси ролл с крабом' width='100%')
+                    .product__name Спайси ролл с крабом
+                    .product__contains
+                        | Краб, кунжут, соус спайси
+                    .product__price
+                        ul.product__price__option
+                            li 150 гр - 180 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/spajsi_roll-ovoshchi.jpg' alt='Спайси ролл с овощами' width='100%')
+                    .product__name Спайси ролл с овощами
+                    .product__contains
+                        | Томат, огурец, салат,соус спайси
+                    .product__price
+                        ul.product__price__option
+                            li 160 гр - 170 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/spajsi_roll-losos.jpg' alt='Спайси ролл с лососем' width='100%')
+                    .product__name Спайси ролл с лососем
+                    .product__contains
+                        | Лосось, кунжут, соус спайси
+                    .product__price
+                        ul.product__price__option
+                           li 150 гр - 180 р
+            //- rolly ostrye second row
+        .row
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/spajsi_roll-krevetki.jpg' alt='Спайси ролл с креветкой' width='100%')
+                    .product__name Спайси ролл с креветкой
+                    .product__contains
+                        | Креветки, кунжут, соус спайси
+                    .product__price
+                        ul.product__price__option
+                            li 150 гр - 190 р
+
+            //- rolly goryachie first row
+        .row
+            .container
+                .row.text-center
+                    .section__title Горячие роллы
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/gor_roll-ugor.jpg' alt='Горячий ролл с угрем' width='100%')
+                    .product__name Горячий ролл
+                    .product__contains
+                        | Угорь, лосось, краб, сливочный сыр
+                    .product__price
+                        ul.product__price__option
+                            li 220 гр - 350 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/gor_roll-okinava.jpg' alt='Горячий ролл Окинави темпура' width='100%')
+                    .product__name Окинави темпура
+                    .product__contains
+                        | Лосось, шампиньоны, чука, огурец, соус ореховый
+                    .product__price
+                        ul.product__price__option
+                            li 230 гр - 360 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/gor_roll-tempura.jpg' alt='Горячий ролл Темпура' width='100%')
+                    .product__name Темпура
+                    .product__contains
+                        | Лосось, чука, соус ореховый
+                    .product__price
+                        ul.product__price__option
+                            li 220 гр - 340 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/gor_roll-kalifor.jpg' alt='Горячий ролл Калифорния' width='100%')
+                    .product__name Горячий ролл Калифорния
+                    .product__contains
+                        | Тобико, лосось, краб, сыр сливочный
+                    .product__price
+                        ul.product__price__option
+                            li 220 гр - 350 р
+
+            //- sushi first row
+        .row
+            .container
+                .row.text-center
+                    .section__title Суши
+            .col-sm-4.col-md-4
+                .product
+                    img(src='img/rolly/sushi_losos.jpg' alt='С лососем' width='100%')
+                    .product__name С лососем
+                    .product__price
+                        ul.product__price__option
+                            li 60 р
+            .col-sm-4.col-md-4
+                .product
+                    img(src='img/rolly/sushi_krevetka.jpg' alt='С креветкой' width='100%')
+                    .product__name С креветкой
+                    .product__price
+                        ul.product__price__option
+                            li 70 р
+            //- .clearfix.visible-sm-block
+            .col-sm-4.col-md-4
+                .product
+                    img(src='img/rolly/sushi_ugor.jpg' alt='С угрем' width='100%')
+                    .product__name С угрем
+                    .product__price
+                        ul.product__price__option
+                            li 70 р
+
+            //- gunkany first row
+        .row
+            .container
+                .row.text-center
+                    .section__title Гунканы
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/gunkan_krab.jpg' alt='Спайси с крабом' width='100%')
+                    .product__name Спайси с крабом
+                    .product__price
+                        ul.product__price__option
+                            li 70 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/gunkan_losos.jpg' alt='Спайси с лососем' width='100%')
+                    .product__name Спайси с лососем
+                    .product__price
+                        ul.product__price__option
+                            li 70 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/gunkan_krevetka.jpg' alt='Спайси с креветкой' width='100%')
+                    .product__name Спайси с креветкой
+                    .product__price
+                        ul.product__price__option
+                            li 70 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/gunkan_ugor.jpg' alt='Спайси с угрем' width='100%')
+                    .product__name Спайси с угрем
+                    .product__price
+                        ul.product__price__option
+                            li 70 р
+
+            //- sety first row
+        .row
+            .container
+                .row.text-center
+                    .section__title Сеты
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/set_filadelf.jpg' alt='Сет Филадельфия' width='100%')
+                    .product__name Сет Филадельфия
+                    .product__contains
+                        | Ролл филадельфия, ролл филадельфия с креветками, калифорния с лососем, ролл канадский
+                    .product__price
+                        ul.product__price__option
+                            li 820 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/set_spajsi.jpg' alt='Сет Спайси' width='100%')
+                    .product__name Сет Спайси
+                    .product__contains
+                        | ролл с угрем, ролл с лососем, ролл с овощами, ролл с креветками, ролл с крабом
+                    .product__price
+                        ul.product__price__option
+                            li 650 р
+            .clearfix.visible-sm-block
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/set_klassika.jpg' alt='Сет Классика' width='100%')
+                    .product__name Сет Классика
+                    .product__contains
+                        | ролл с огурцом, ролл с лососем, ролл с авокадо, суши с лососем, суши с угрем, спайси с крабом, спайси с креветкой
+                    .product__price
+                        ul.product__price__option
+                           li 610 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/set_kalifornia.jpg' alt='Сет Калифорния' width='100%')
+                    .product__name Сет Калифорния
+                    .product__contains
+                        | калифорния с лососем, калифорния с крабом, калифорния фило, канадский ролл, суши с лососем, спайси с крабом
+                    .product__price
+                        ul.product__price__option
+                            li 890 р
+
+            //- vok first row
+        .row
+            .container
+                .row.text-center
+                    .section__title ВОК
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/vok_osnova.jpg' alt='Вок основа' width='100%')
+                    .product__name Основа
+                    .product__contains
+                        | Фунчоза, удон, соба, рис
+                    .product__price
+                        ul.product__price__option
+                            li 190 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/vok_dopolnitelno.jpg' alt='Вок дополнительно' width='100%')
+                    .product__name Дополнительно
+                    .product__price
+                        ul.product__price__option
+                            li креветки - 75 р
+                            li мидии - 75 р
+                            li курица - 65 р
+                            li говядина - 75 р
+                            li лосось - 70 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/vok_sous2.jpg' alt='Вок соусы' width='100%')
+                    .product__name Соусы
+                    .product__price
+                        ul.product__price__option
+                           li соевый - 30 р
+                           li терияки - 30 р
+                           li кимчи - 30 р
+                           li чесночный - 30 р
+            .col-sm-6.col-md-3
+                .product
+                    img(src='img/rolly/vok_miso.jpg' alt='Вок мисо-суп' width='100%')
+                    .product__name Мисо-суп
+                    .product__price
+                        ul.product__price__option
+                            li мисо-суп - 110 р
+                            li дополнительно лосось - 70 р
+                            li дополнительно креветки - 70 р
+
+            //- footer
+        .row.info
+            .col-md-3.text-center
+                .logo
+                    img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='235px')
+            .col-md-5.text-center
+                .footer__text Сиеста доставляет бесплатно!
+            .col-md-4.text-left
+                .phone__footer 8 926 865-77-50
+                .address Нахабино, Красноармейская ул., 61а
+    script(src="libs/jquery/jquery.min.js")
+    script(src="libs/bootstrap/bootstrap.min.js")
+    script(src="libs/fotorama/fotorama.js")
+
+    // Yandex.Metrika counter
+    //- script(type='text/javascript').
+    //-   (function (d, w, c) {
+    //-   (w[c] = w[c] || []).push(function() {
+    //-   try {
+    //-   w.yaCounter36895210 = new Ya.Metrika({
+    //-   id:36895210,
+    //-   clickmap:true,
+    //-   trackLinks:true,
+    //-   accurateTrackBounce:true
+    //-   });
+    //-   } catch(e) { }
+    //-   });
+    //-   var n = d.getElementsByTagName("script")[0],
+    //-   s = d.createElement("script"),
+    //-   f = function () { n.parentNode.insertBefore(s, n); };
+    //-   s.type = "text/javascript";
+    //-   s.async = true;
+    //-   s.src = "https://mc.yandex.ru/metrika/watch.js";
+    //-   if (w.opera == "[object Opera]") {
+    //-   d.addEventListener("DOMContentLoaded", f, false);
+    //-   } else { f(); }
+    //-   })(document, window, "yandex_metrika_callbacks");
+    //- noscript
+    //-   div
+    //-     img(src='https://mc.yandex.ru/watch/36895210', style='position:absolute; left:-9999px;', alt='')
+    // /Yandex.Metrika counter
