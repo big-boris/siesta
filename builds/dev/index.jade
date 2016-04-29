@@ -25,6 +25,14 @@ body
             .col-md-4
                 .phone__head 8 926 865-77-50
                 .opening__hours Часы работы: с 12:00 до 23:00
+        .row.text-center
+            .menu
+                .menu__item
+                    a(href='javascript:void(0);') Пицца
+                .menu__item
+                    a(href='/rolly.html') Роллы
+                .menu__item
+                    a(href='javascript:void(0);' onclick="myScrollTo('maps');") Контакты
         .row.slider.hidden-xs
             .col-md-12
                 .fotorama(data-width="100%" data-height='520px' data-nav="false" transitionduration='100' data-autoplay="3000" data-stopautoplayontouch="false" data-fit="cover" data-max-width="100%")
@@ -473,6 +481,8 @@ body
                     .product__price
                         ul.product__price__option
                             li 0,5 л - 119 р
+        .row.maps
+            script(type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=r8vjUC7gKaTP9hxyf_Ok9mpF9u0kLvl9&width=100%&height=470&lang=ru_RU&sourceType=constructor&scroll=true")
         .row.info
             .col-md-3.text-center
                 .logo
@@ -485,6 +495,7 @@ body
     script(src="libs/jquery/jquery.min.js")
     script(src="libs/bootstrap/bootstrap.min.js")
     script(src="libs/fotorama/fotorama.js")
+    script(src="js/app.js")
 
     // Yandex.Metrika counter
     //- script(type='text/javascript').
