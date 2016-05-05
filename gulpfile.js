@@ -26,7 +26,7 @@ gulp.task('sass', function () {
   gulp.src('builds/dev/sass/*.scss')
       .pipe(sass())
       .pipe(autoprefixer({
-            browsers: ['last 10 versions','>5%'],
+            browsers: ['last 10 versions','> 5%'],
             cascade: false
         }))
       .pipe(concat('style.css'))
