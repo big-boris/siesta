@@ -16,15 +16,15 @@ head
         <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script> <![endif]
 body
     .container
-        .row.text-center.info
+        .row.text-center.header
             .col-md-3
                 .logo
                     img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='235px')
             .col-md-5
                 .header__text Бесплатная доставка <br> суши в Нахабино
             .col-md-4
-                .phone__head 8 926 865-77-50
-                .opening__hours Часы работы: с 12:00 до 23:00
+                .header__phone 8 926 865-77-50
+                .header__opening__hours Часы работы: с 12:00 до 23:00
         .row.text-center
             .menu
                 .menu__item
@@ -32,10 +32,12 @@ body
                 .menu__item
                     a(href='javascript:void(0);') Роллы
                 .menu__item
-                    a(href='javascript:void(0);' onclick="myScrollTo('maps');") Контакты
+                    a(href='/kalyan.html') Кальян
+                .menu__item
+                    a(href='javascript:void(0);' onclick="myScrollTo('map');") Контакты
         .row.slider.hidden-xs
             .col-md-12
-                .fotorama(data-width="100%" data-height='520px' data-nav="false" transitionduration='100' data-autoplay="3000" data-stopautoplayontouch="false" data-fit="cover" data-max-width="100%")
+                .fotorama(data-width="100%" data-height='520px' data-nav="false" transitionduration='100' data-loop='true' data-autoplay="3000" data-stopautoplayontouch="false" data-fit="cover" data-max-width="100%")
                     img(src='img/rolly_slide01.jpg' alt='Кафе Сиеста роллы суши' width='100%')
                     img(src='img/rolly_slide02.jpg' alt='Кафе Сиеста бесплатная доставка суши' width='100%')
                     img(src='img/rolly_slide03.jpg' alt='Кафе Сиеста заказать суши роллы' width='100%')
@@ -448,17 +450,17 @@ body
                         ul.product__price__option Дополнительно:
                             li лосось - 70 р
                             li креветки - 70 р
-        .row.maps
+        .row.map
             script(type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=r8vjUC7gKaTP9hxyf_Ok9mpF9u0kLvl9&width=100%&height=470&lang=ru_RU&sourceType=constructor&scroll=true")
-        .row.info
+        .row.footer
             .col-md-3.text-center
                 .logo
                     img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='235px')
             .col-md-5.text-center
                 .footer__text Сиеста доставляет бесплатно!
             .col-md-4.text-left
-                .phone__footer 8 926 865-77-50
-                .address Нахабино, Красноармейская ул., 61а
+                .footer__phone 8 926 865-77-50
+                .footer__address Нахабино, Красноармейская ул., 61а
     script(src="libs/jquery/jquery.min.js")
     script(src="libs/bootstrap/bootstrap.min.js")
     script(src="libs/fotorama/fotorama.js")
