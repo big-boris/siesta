@@ -18,9 +18,8 @@ body
     .container
         .row.header
             .col-md-2
-                .logo
-                    br
-                    img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='180px')
+                .header__logo
+                    img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно')
             .col-md-6
                 .menu
                     .menu__item
@@ -459,8 +458,8 @@ body
                 script(type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=r8vjUC7gKaTP9hxyf_Ok9mpF9u0kLvl9&width=100%&height=470&lang=ru_RU&sourceType=constructor&scroll=true")
         .row.footer
             .col-md-2
-                .logo
-                    img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно' width='180px')
+                .footer__logo
+                    img(src='img/logo_siesta.jpg' alt='Кафе Сиеста - доставляем бесплатно')
             .col-md-6
                 .menu
                     .menu__item
@@ -480,29 +479,29 @@ body
     script(src="js/app.js")
 
     // Yandex.Metrika counter
-    //- script(type='text/javascript').
-    //-   (function (d, w, c) {
-    //-   (w[c] = w[c] || []).push(function() {
-    //-   try {
-    //-   w.yaCounter36895210 = new Ya.Metrika({
-    //-   id:36895210,
-    //-   clickmap:true,
-    //-   trackLinks:true,
-    //-   accurateTrackBounce:true
-    //-   });
-    //-   } catch(e) { }
-    //-   });
-    //-   var n = d.getElementsByTagName("script")[0],
-    //-   s = d.createElement("script"),
-    //-   f = function () { n.parentNode.insertBefore(s, n); };
-    //-   s.type = "text/javascript";
-    //-   s.async = true;
-    //-   s.src = "https://mc.yandex.ru/metrika/watch.js";
-    //-   if (w.opera == "[object Opera]") {
-    //-   d.addEventListener("DOMContentLoaded", f, false);
-    //-   } else { f(); }
-    //-   })(document, window, "yandex_metrika_callbacks");
-    //- noscript
-    //-   div
-    //-     img(src='https://mc.yandex.ru/watch/36895210', style='position:absolute; left:-9999px;', alt='')
+    script(type='text/javascript').
+      (function (d, w, c) {
+      (w[c] = w[c] || []).push(function() {
+      try {
+      w.yaCounter36895210 = new Ya.Metrika({
+      id:36895210,
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true
+      });
+      } catch(e) { }
+      });
+      var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/watch.js";
+      if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    noscript
+      div
+        img(src='https://mc.yandex.ru/watch/36895210', style='position:absolute; left:-9999px;', alt='')
     // /Yandex.Metrika counter
