@@ -1,25 +1,26 @@
 -var pageTitle = "Кальянная Smoke Room Нахабино недорого покурить кальян"
 
 doctype html
-html(lang="ru")
+html(lang='ru')
     head
-        meta(charset="UTF-8")
-        meta(name='yandex-verification' content='672bbf7ed8b0d929')
-        meta(name='viewport' content='width=device-width, initial-scale=1.0')
-        meta(http-equiv='X-UA-Compatible' content='IE=edge')
-        meta(name='description' content='Нахабино кальянная, Нахабино недорого покурить кальян')
+        meta(charset='UTF-8')
+        meta(name='yandex-verification', content='672bbf7ed8b0d929')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='description', content='Нахабино кальянная, Нахабино недорого покурить кальян')
         title= pageTitle
-        link(rel="stylesheet" href="css/style.css")
-        link(rel="stylesheet" href="libs/bootstrap/bootstrap.css")
-        link(rel="stylesheet" href="libs/fotorama/fotorama.css")
-        //[if lt IE 9]>
-            <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script> <![endif]
+        link(rel='stylesheet', href='css/style.css')
+        link(rel='stylesheet', href='libs/bootstrap/bootstrap.css')
+        link(rel='stylesheet', href='libs/fotorama/fotorama.css')
+        //if lt IE 9
+            script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+            <![endif]
     body
         .container
             .row.header
                 .col-md-2
                     .header__kalyan__logo
-                        img(src='img/logo_kalyan.png' alt='Кальянная Smoke Room Нахабино, недорого покурить кальян' height='100px')
+                        img(src='img/logo_kalyan.png', alt='Кальянная Smoke Room Нахабино, недорого покурить кальян', height='100px')
                 .col-md-6
                     .menu
                         .menu__item
@@ -29,95 +30,84 @@ html(lang="ru")
                         .menu__item
                             a(href='javascript:void(0);') Кальян
                         .menu__item
-                            a(href='javascript:void(0);' onclick="myScrollTo('map');") Контакты
+                            a(href='javascript:void(0);', onclick="myScrollTo('map');") Контакты
                 .col-md-4
                     .header__phone 8 926 865-77-50
-                    .header__opening__hours Часы работы: с 12:00 до 23:00
-
+                    .header__opening__hours Часы работы: с 11:00 до 23:00
             .row
                 .col-md-12
                     .header__text Уютная атмосфера для дружной компании
-
             .row.slider.hidden-xs
                 .col-md-12
-                    .fotorama(data-width="100%" data-height='520px' data-nav="false" transitionduration='100' data-loop='true' data-autoplay="3000" data-stopautoplayontouch="false" data-fit="cover" data-max-width="100%")
-                        img(src='img/kalyan_slide01.jpg' alt='Кальянная Smoke Room Нахабино слайд 1' width='100%')
-                        img(src='img/kalyan_slide02.jpg' alt='Кальянная Smoke Room Нахабино слайд 2' width='100%')
-                        img(src='img/kalyan_slide03.jpg' alt='Кальянная Smoke Room Нахабино слайд 3' width='100%')
-                        img(src='img/kalyan_slide04.jpg' alt='Кальянная Smoke Room Нахабино слайд 4' width='100%')
-
-                //- kalyan first row
+                    .fotorama(data-width='100%', data-height='520px', data-nav='false', transitionduration='100', data-loop='true', data-autoplay='3000', data-stopautoplayontouch='false', data-fit='cover', data-max-width='100%')
+                        img(src='img/kalyan_slide01.jpg', alt='Кальянная Smoke Room Нахабино слайд 1', width='100%')
+                        img(src='img/kalyan_slide02.jpg', alt='Кальянная Smoke Room Нахабино слайд 2', width='100%')
+                        img(src='img/kalyan_slide03.jpg', alt='Кальянная Smoke Room Нахабино слайд 3', width='100%')
+                        img(src='img/kalyan_slide04.jpg', alt='Кальянная Smoke Room Нахабино слайд 4', width='100%')
             .row
                 .col-sm-6.col-md-4
                     .product
-                        img(src='img/kalyan/tabak_darkside.jpg' alt='Кальян Darkside' width='50%')
+                        img(src='img/kalyan/tabak_darkside.jpg', alt='Кальян Darkside', width='50%')
                         .product__name Кальян Darkside
                         .product__price
                             ul.product__price__option
-                                li На обычной чаше &#8212; 1 200 р
-                                li На фрукте &#8212; 1 500 р
+                                li На обычной чаше — 850 р
+                                li На фрукте — 950 р
                 .col-sm-6.col-md-4
                     .product
-                        img(src='img/kalyan/tabak_fumari.jpg' alt='Кальян Fumari' width='50%')
+                        img(src='img/kalyan/tabak_fumari.jpg', alt='Кальян Fumari', width='50%')
                         .product__name Кальян Fumari
                         .product__price
                             ul.product__price__option
-                                li На обычной чаше &#8212; 900 р
-                                li На фрукте &#8212; 1 000 р
-                //- .clearfix.visible-sm-block
+                                li На обычной чаше — 650 р
+                                li На фрукте — 750 р
                 .col-sm-6.col-md-4
                     .product
-                        img(src='img/kalyan/tabak_nakhla.jpg' alt='Кальян Nakhla' width='50%')
+                        img(src='img/kalyan/tabak_nakhla.jpg', alt='Кальян Nakhla', width='50%')
                         .product__name Кальян Nakhla
                         .product__price
                             ul.product__price__option
-                                li На обычной чаше &#8212; 650 р
-                                li На фрукте &#8212; 750 р
-
-                //- kalyan second row
-                //- .row
+                                li На обычной чаше — 500 р
+                                li На фрукте — 600 р
                 .col-sm-6.col-md-4
                     .product
-                        img(src='img/kalyan/tabak_serbetli.jpg' alt='Кальян Serbetli' width='50%')
-                        .product__name Кальян Serbetli
+                        img(src='img/kalyan/tabak_nirvana.jpg', alt='Кальян Nirvana', width='50%')
+                        .product__name Кальян Nirvana
                         .product__price
                             ul.product__price__option
-                                li На обычной чаше &#8212; 650 р
-                                li На фрукте &#8212; 750 р
+                                li На обычной чаше — 750 р
+                                li На фрукте — 850 р
                 .col-sm-6.col-md-4
                     .product
-                        img(src='img/kalyan/tabak_adalya.jpg' alt='Кальян Adalya' width='50%')
+                        img(src='img/kalyan/tabak_adalya.jpg', alt='Кальян Adalya', width='50%')
                         .product__name Кальян Adalya
                         .product__price
                             ul.product__price__option
-                                li На обычной чаше &#8212; 650 р
-                                li На фрукте &#8212; 750 р
+                                li На обычной чаше — 400 р
+                                li На фрукте — 500 р
                 .col-sm-6.col-md-4
                     .product
-                        img(src='img/kalyan/tabak_alfakher.jpg' alt='Кальян Al Fakher' width='50%')
+                        img(src='img/kalyan/tabak_alfakher.jpg', alt='Кальян Al Fakher', width='50%')
                         .product__name Кальян Al Fakher
                         .product__price
                             ul.product__price__option
-                                li На обычной чаше &#8212; 650 р
-                                li На фрукте &#8212; 750 р
-
+                                li На обычной чаше — 400 р
+                                li На фрукте — 500 р
             .row.vyberimix
                 .col-sm-12.col-md-6
-                    img(src='img/kalyan/vyberi_mix.jpg', alt='Выбери свой микс' width='100%')
+                    img(src='img/kalyan/vyberi_mix.jpg', alt='Выбери свой микс', width='100%')
                 .col-sm-12.col-md-6
                     .vyberimix__title Выбери свой вкус или микс
-                    .vyberimix__text киви &#8226; мята &#8226; бабл гам &#8226; ананас &#8226; малина &#8226; вишня &#8226; манго &#8226; гуава &#8226; бабл гам фрукт &#8226; манго айс &#8226; кактус &#8226; арбуз &#8226; лимон пай &#8226; дыня &#8226; апельсин - ананас &#8226;персик &#8226; апельсин &#8226; черника &#8226; виноград
-
+                    .vyberimix__text
+                        | киви • мята • бабл гам • ананас • малина • вишня • манго • гуава • бабл гам фрукт • манго айс • кактус • арбуз • лимон пай • дыня • апельсин - ананас •персик • апельсин • черника • виноград
             .row.map
                 .container
                     .map__title Наш адрес в Нахабино
-                    script(type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=r8vjUC7gKaTP9hxyf_Ok9mpF9u0kLvl9&width=100%&height=470&lang=ru_RU&sourceType=constructor&scroll=true")
-                    //- img(src='img/map.jpg', alt='карта контакты' width='100%')
-
+                    script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=r8vjUC7gKaTP9hxyf_Ok9mpF9u0kLvl9&width=100%&height=470&lang=ru_RU&sourceType=constructor&scroll=true')
             .row.footer
                 .col-md-2
                     .footer__kalyan__logo
-                        img(src='img/logo_kalyan.png' alt='Кальянная Smoke Room Нахабино, недорого покурить кальян' height='100px')
+                        img(src='img/logo_kalyan.png', alt='Кальянная Smoke Room Нахабино, недорого покурить кальян', height='100px')
                 .col-md-6
                     .menu
                         .menu__item
@@ -131,36 +121,34 @@ html(lang="ru")
                 .col-md-4.text-left
                     .footer__phone 8 926 865-77-50
                     .footer__address Нахабино, Красноармейская ул., 61а
-
-        script(src="libs/jquery/jquery.min.js")
-        script(src="libs/bootstrap/bootstrap.min.js")
-        script(src="libs/fotorama/fotorama.js")
-        script(src="js/app.js")
-
+        script(src='libs/jquery/jquery.min.js')
+        script(src='libs/bootstrap/bootstrap.min.js')
+        script(src='libs/fotorama/fotorama.js')
+        script(src='js/app.js')
         // Yandex.Metrika counter
         script(type='text/javascript').
-          (function (d, w, c) {
-          (w[c] = w[c] || []).push(function() {
-          try {
-          w.yaCounter36895210 = new Ya.Metrika({
-          id:36895210,
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true
-          });
-          } catch(e) { }
-          });
-          var n = d.getElementsByTagName("script")[0],
-          s = d.createElement("script"),
-          f = function () { n.parentNode.insertBefore(s, n); };
-          s.type = "text/javascript";
-          s.async = true;
-          s.src = "https://mc.yandex.ru/metrika/watch.js";
-          if (w.opera == "[object Opera]") {
-          d.addEventListener("DOMContentLoaded", f, false);
-          } else { f(); }
-          })(document, window, "yandex_metrika_callbacks");
+            (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+            try {
+            w.yaCounter36895210 = new Ya.Metrika({
+            id:36895210,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+            });
+            } catch(e) { }
+            });
+            var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
         noscript
-          div
-            img(src='https://mc.yandex.ru/watch/36895210', style='position:absolute; left:-9999px;', alt='')
+            div
+                img(src='https://mc.yandex.ru/watch/36895210', style='position:absolute; left:-9999px;', alt='')
         // /Yandex.Metrika counter
