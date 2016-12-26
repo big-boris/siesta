@@ -1,12 +1,16 @@
-.header, .footer {
+.header {
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+.footer {
     padding-top: 20px;
     padding-bottom: 28px;
 }
 .header__logo {
+    margin-top: 12px;
     img {
         width: 150px;
     }
-    margin-top: 12px;
 }
 .header__text {
     font-size: 65px;
@@ -50,7 +54,6 @@
     font-size: 28px;
     margin-top: 20px;
     line-height: 1.2;
-    // margin-bottom: -10px;
 }
 .product__price {
     margin-top: 8px;
@@ -63,24 +66,26 @@
     font-size: 48px;
     margin: 24px 0px;
     line-height: 1;
-    // text-transform: uppercase;
 }
 .vyberimix__text {
     font-size: 22px;
     line-height: 1.8;
     text-transform: uppercase;
 }
-.map, .vyberimix {
+.map {
+    margin: 74px 0px 36px 0px;
+}
+.vyberimix {
     margin: 74px 0px 36px 0px;
 }
 .map__title {
     font-size: 48px;
 }
 .footer__logo {
+    margin-top: 8px;
     img {
         width: 150px;
     }
-    margin-top: 8px;
 }
 .footer__text {
     font-size: 36px;
@@ -95,19 +100,21 @@
     font-size: 22px;
     padding-left: 16px;
 }
-
 @media (max-width: 768px) {
-  .menu__item {
-    font-size: 22px;
-  }
-  .map__title {
-    font-size: 32px;
-  }
-  .header__text {
-    font-size: 28px;
-    padding-left: 10px;
-  }
-  .header__phone, .header__opening__hours {
-    padding-left: 15px;
-  }
+    .menu__item {
+        font-size: 22px;
+    }
+    .map__title {
+        font-size: 32px;
+    }
+    .header__text {
+        font-size: 28px;
+        padding-left: 10px;
+    }
+    .header__phone {
+        padding-left: 15px;
+    }
+    .header__opening__hours {
+        padding-left: 15px;
+    }
 }
