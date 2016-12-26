@@ -36,6 +36,9 @@
     cursor: pointer;
 }
 
+.kalyan__logo img {
+    height: 100px;
+}
 .kalyan__phone {
     font-weight: bold;
     font-size: 36px;
@@ -140,6 +143,9 @@
         padding-left: 15px;
         margin-left: 0px;
         font-size: 24px;
+    }
+    .kalyan__logo {
+        margin-left: 16px;
     }
     .kalyan__phone, .kalyan__opening, .kalyan__address {
         padding-left: 16px;
