@@ -6,24 +6,23 @@
     padding-top: 20px;
     padding-bottom: 28px;
 }
-.header__logo {
+.siesta__logo {
     margin-top: 12px;
     img {
-        width: 150px;
+        width: 110%;
     }
 }
 .header__text {
     font-size: 65px;
     padding-bottom: 16px;
 }
-.header__phone {
+.siesta__phone {
     font-weight: bold;
-    font-size: 36px;
-    padding-top: 8px;
-    padding-left: 56px;
+    font-size: 24px;
+    padding-bottom: 8px;
 }
-.header__opening__hours {
-    padding-left: 56px;
+.siesta__address {
+    padding-top: 4px;
     font-size: 18px;
 }
 .menu {
@@ -36,6 +35,23 @@
     margin: 0px 16px;
     cursor: pointer;
 }
+
+.kalyan__phone {
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 8px;
+    // padding-left: 56px;
+}
+
+.kalyan__opening {
+    // padding-left: 56px;
+    font-size: 18px;
+}
+.kalyan__address {
+    font-size: 22px;
+    // padding-left: 16px;
+}
+
 .slider {
     margin-bottom: 74px;
 }
@@ -81,40 +97,51 @@
 .map__title {
     font-size: 48px;
 }
-.footer__logo {
-    margin-top: 8px;
-    img {
-        width: 150px;
-    }
-}
 .footer__text {
     font-size: 36px;
     padding: 16px 0;
 }
-.footer__phone {
-    font-weight: bold;
-    font-size: 36px;
-    padding-left: 16px;
-}
-.footer__address {
-    font-size: 22px;
-    padding-left: 16px;
+@media (max-width: 1199px) {
+    .menu__item {
+        font-size: 28px;
+    }
+    .siesta__address {
+        margin-left: -10px;
+        font-size: 16px;
+    }
+    .siesta__phone {
+        margin-left: -10px;
+        font-size: 22px;
+    }
 }
 @media (max-width: 768px) {
+    .menu {
+        margin-bottom: 18px;
+    }
     .menu__item {
         font-size: 22px;
     }
     .map__title {
         font-size: 32px;
     }
+    .siesta__logo img {
+        width: 150px;
+    }
     .header__text {
         font-size: 28px;
         padding-left: 10px;
     }
-    .header__phone {
+    .siesta__address {
         padding-left: 15px;
+        margin-left: 0px;
+        font-size: 18px;
     }
-    .header__opening__hours {
+    .siesta__phone {
         padding-left: 15px;
+        margin-left: 0px;
+        font-size: 24px;
+    }
+    .kalyan__phone, .kalyan__opening, .kalyan__address {
+        padding-left: 16px;
     }
 }
