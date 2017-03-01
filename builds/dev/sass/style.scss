@@ -9,7 +9,7 @@
 .siesta__logo {
     margin-top: 12px;
     img {
-        width: 110%;
+        width: 150px;
     }
 }
 .header__text {
@@ -36,6 +36,9 @@
     cursor: pointer;
 }
 
+.kalyan__logo img {
+    height: 100px;
+}
 .kalyan__phone {
     font-weight: bold;
     font-size: 36px;
@@ -114,6 +117,11 @@
         font-size: 22px;
     }
 }
+@media (min-width: 769px) and (max-width: 991px) {
+    .menu {
+        margin-left: -28px;
+    }
+}
 @media (max-width: 768px) {
     .menu {
         margin-bottom: 18px;
@@ -125,7 +133,7 @@
         font-size: 32px;
     }
     .siesta__logo img {
-        width: 150px;
+        margin-left: 16px;
     }
     .header__text {
         font-size: 28px;
@@ -140,6 +148,9 @@
         padding-left: 15px;
         margin-left: 0px;
         font-size: 24px;
+    }
+    .kalyan__logo {
+        margin-left: 16px;
     }
     .kalyan__phone, .kalyan__opening, .kalyan__address {
         padding-left: 16px;
